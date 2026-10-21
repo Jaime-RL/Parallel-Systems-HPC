@@ -48,5 +48,3 @@ Requirements: g++ with OpenMP and AVX support, CMake ≥ 3.10, ncurses (project)
 ## Tech
 
 C++20 · SSE/AVX intrinsics · OpenMP · MPI · ncurses · CMake · Make
-
-*Coursework from Parallel Systems at Mälardalen University, Sweden.*
