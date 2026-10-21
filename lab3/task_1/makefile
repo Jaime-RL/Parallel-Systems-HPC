@@ -4,7 +4,7 @@ run: compile
 	mpirun --oversubscribe -np $(np) bin/main
 
 compile:
-	@mkdir bin && rm -f bin/*
+	@mkdir -p bin && rm -f bin/*
 	mpicxx -O2 -pedantic -Wall barrier.cpp -o bin/barrier.o -c
 	mpicxx -O2 -pedantic -Wall main.cpp bin/barrier.o -o bin/main
 	
