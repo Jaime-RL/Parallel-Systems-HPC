@@ -3,7 +3,9 @@ out/
 bin/
 obj/
 .vs/
+.vscode/
 *.exe
+*.o
 *.obj
 *.pdb
 *.log
