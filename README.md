@@ -41,6 +41,7 @@ cd project
 cmake -S . -B build && cmake --build build
 ./build/GameOfLife --demo 50 50
 ./build/GameOfLife --benchmark 2000 2000 500 8   # width height iterations threads
+python bench/speedup.py                          # speedup vs. threads -> docs/speedup.png (needs matplotlib)
 ```
 
 Requirements: g++ with OpenMP and AVX support, CMake ≥ 3.10, ncurses (project), and an MPI implementation (e.g. OpenMPI) for lab 3.
